@@ -1,6 +1,8 @@
 krypt-ossl
 -----------------
 
+[![Build Status](https://secure.travis-ci.org/krypt/krypt-ossl.png)](http://travis-ci.org/krypt/krypt-ossl)
+
 A [krypt](https://github.com/krypt/krypt) shim that provides the same
 interface as the Ruby OpenSSL extension.
 
