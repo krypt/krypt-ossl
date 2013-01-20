@@ -13,5 +13,5 @@ module OpenSSL
     def pbkdf2_hmac(pass, salt, iter, keylen, digest)
       Krypt::PBKDF2.new(digest).generate(pass, salt, iter, keylen)
     end
-  end
+  end unless defined? OpenSSL::PKCS5
 end 
