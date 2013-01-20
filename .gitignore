@@ -1,3 +1,9 @@
+tmp
+*.swp
+*.swo
+*~
+.rbx/
+.idea/
 *.gem
 *.rbc
 .bundle
